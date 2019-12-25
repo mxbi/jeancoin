@@ -134,6 +134,10 @@
         <translation>Litecoin</translation>
     </message>
     <message>
+        <source>Wallet</source>
+        <translation>Rahakott</translation>
+    </message>
+    <message>
         <source>&amp;Send</source>
         <translation>&amp;Saada</translation>
     </message>
@@ -280,6 +284,10 @@
     <message>
         <source>Options</source>
         <translation>Valikud</translation>
+    </message>
+    <message>
+        <source>MB</source>
+        <translation>MB</translation>
     </message>
     <message>
         <source>&amp;Network</source>
@@ -727,9 +735,6 @@
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
-    </context>
-<context>
-    <name>WalletController</name>
     </context>
 <context>
     <name>WalletFrame</name>

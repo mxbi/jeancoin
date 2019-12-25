@@ -50,10 +50,6 @@
         <translation>Elige la dirección para recibir monedas</translation>
     </message>
     <message>
-        <source>C&amp;hoose</source>
-        <translation>Escoger</translation>
-    </message>
-    <message>
         <source>Sending addresses</source>
         <translation>Envío de direcciones</translation>
     </message>
@@ -70,10 +66,6 @@
         <translation>Estas son tus direcciones Litecoin para recibir pagos. Es recomendable usar una nueva dirección de recibo para cada transacción.</translation>
     </message>
     <message>
-        <source>&amp;Copy Address</source>
-        <translation>Copiar dirección</translation>
-    </message>
-    <message>
         <source>Copy &amp;Label</source>
         <translation>Copiar &amp;Etiqueta</translation>
     </message>
@@ -85,29 +77,9 @@
         <source>Export Address List</source>
         <translation>Exportar lista de direcciones</translation>
     </message>
-    <message>
-        <source>Comma separated file (*.csv)</source>
-        <translation>Separar los archivos con comas (*.csv)</translation>
-    </message>
-    <message>
-        <source>Exporting Failed</source>
-        <translation>Error al exportar</translation>
-    </message>
-    <message>
-        <source>There was an error trying to save the address list to %1. Please try again.</source>
-        <translation>Tuvimos un problema al guardar la dirección en la lista %1. Intenta de Nuevo.</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>AddressTableModel</name>
-    <message>
-        <source>Label</source>
-        <translation>Nombre</translation>
-    </message>
-    <message>
-        <source>Address</source>
-        <translation>Direccion</translation>
-    </message>
     <message>
         <source>(no label)</source>
         <translation>(sin etiqueta)</translation>
@@ -131,40 +103,6 @@
         <source>Repeat new passphrase</source>
         <translation>Repetir nueva frase de contraseña</translation>
     </message>
-    <message>
-        <source>Show password</source>
-        <translation>Mostrar contraseña</translation>
-    </message>
-    <message>
-        <source>Encrypt wallet</source>
-        <translation>Cifrar monedero</translation>
-    </message>
-    <message>
-        <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Esta operación necesita su frase de contraseña de la billetera para desbloquearla.
-</translation>
-    </message>
-    <message>
-        <source>Unlock wallet</source>
-        <translation>Desbloquear monedero</translation>
-    </message>
-    <message>
-        <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Esta operación necesita su frase de contraseña de la billetera para descifrar la billetera.
-</translation>
-    </message>
-    <message>
-        <source>Decrypt wallet</source>
-        <translation>Descifrar monedero</translation>
-    </message>
-    <message>
-        <source>Change passphrase</source>
-        <translation>Cambiar frase secreta</translation>
-    </message>
-    <message>
-        <source>Confirm wallet encryption</source>
-        <translation>Confirmar cifrado de billetera</translation>
-    </message>
     </context>
 <context>
     <name>BanTableModel</name>
@@ -178,6 +116,10 @@
     <message>
         <source>Synchronizing with network...</source>
         <translation>Sincronizando con la red...</translation>
+    </message>
+    <message>
+        <source>Node</source>
+        <translation>Nodo</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
@@ -204,6 +146,10 @@
         <translation>&amp;Opciones...</translation>
     </message>
     <message>
+        <source>&amp;Receiving addresses...</source>
+        <translation>Recepción de direcciones</translation>
+    </message>
+    <message>
         <source>Reindexing blocks on disk...</source>
         <translation>Reindexando bloques en el disco...</translation>
     </message>
@@ -226,6 +172,10 @@
     <message>
         <source>Litecoin</source>
         <translation>Litecoin</translation>
+    </message>
+    <message>
+        <source>Wallet</source>
+        <translation>Billetera</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -627,24 +577,12 @@
         <translation>&amp;Copiar Dirección</translation>
     </message>
     <message>
-        <source>Address</source>
-        <translation>Direccion</translation>
-    </message>
-    <message>
-        <source>Label</source>
-        <translation>Nombre</translation>
-    </message>
-    <message>
         <source>Wallet</source>
         <translation>Billetera</translation>
     </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
-    <message>
-        <source>Label</source>
-        <translation>Nombre</translation>
-    </message>
     <message>
         <source>(no label)</source>
         <translation>(sin etiqueta)</translation>
@@ -732,38 +670,15 @@
 <context>
     <name>TransactionTableModel</name>
     <message>
-        <source>Label</source>
-        <translation>Nombre</translation>
-    </message>
-    <message>
         <source>(no label)</source>
         <translation>(sin etiqueta)</translation>
     </message>
     </context>
 <context>
     <name>TransactionView</name>
-    <message>
-        <source>Comma separated file (*.csv)</source>
-        <translation>Separar los archivos con comas (*.csv)</translation>
-    </message>
-    <message>
-        <source>Label</source>
-        <translation>Nombre</translation>
-    </message>
-    <message>
-        <source>Address</source>
-        <translation>Direccion</translation>
-    </message>
-    <message>
-        <source>Exporting Failed</source>
-        <translation>Error al exportar</translation>
-    </message>
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
-    </context>
-<context>
-    <name>WalletController</name>
     </context>
 <context>
     <name>WalletFrame</name>
