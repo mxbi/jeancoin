@@ -5,6 +5,7 @@ src/litecoin
 src/litecoind
 src/litecoin-cli
 src/litecoin-tx
+src/litecoin-wallet
 src/test/test_litecoin
 src/test/test_litecoin_fuzzy
 src/qt/test/test_litecoin-qt
@@ -53,6 +54,7 @@ src/qt/bitcoin-qt.includes
 .deps
 .dirstamp
 .libs
+.vscode
 .*.swp
 *.*~*
 *.bak
@@ -65,6 +67,7 @@ src/qt/bitcoin-qt.includes
 *.a
 *.pb.cc
 *.pb.h
+*.dat
 
 *.log
 *.trs
@@ -115,3 +118,9 @@ test/cache/*
 
 libbitcoinconsensus.pc
 contrib/devtools/split-debug.sh
+
+# Output from running db4 installation
+db4/
+
+# clang-check
+*.plist
